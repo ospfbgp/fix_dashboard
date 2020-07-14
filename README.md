@@ -1,7 +1,10 @@
 # Make dashboard root directory
+1. sudo bash
 <pre>
 cd ~
 sudo bash
+2. execute following commands
+<pre>
 rm -fr fix_dashboard/
 git clone https://github.com/ospfbgp/fix_dashboard.git
 cp ~/fix_dashboard/dashboard.conf /etc/apache2/sites-available/.
@@ -31,6 +34,17 @@ chmod 770 /opt/librenms
 setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 </pre>
-# execute service apache2 restart 
-# edit file /opt/librenms/config.php and remove $config['base_url']
-# execute script /opt/librenms/daily.sh
+3. Restart apache2
+<pre>
+service apache2 restart
+</pre>
+4. edit file /opt/librenms/config.php and remove $config['base_url']
+5. edit file and comment out APP_URL= /opt/librenms/.env 
+6. update dashboard
+<pre>
+/opt/librenms/daily.sh
+</pre>
+6. validate dashboard
+<pre>
+/opt/librenms/validate
+</pre>
