@@ -3,6 +3,7 @@
 <pre>
 cd ~
 sudo bash
+</pre>
 2. execute following commands
 <pre>
 rm -fr fix_dashboard/
