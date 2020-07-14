@@ -31,5 +31,6 @@ chmod 770 /opt/librenms
 setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 </pre>
+# execute service apache2 restart 
 # edit file /opt/librenms/config.php and remove $config['base_url']
 # execute script /opt/librenms/daily.sh
