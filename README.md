@@ -45,10 +45,10 @@ service apache2 restart
 <pre>
 /opt/librenms/daily.sh
 </pre>
-6. validate dashboard
+7. validate dashboard
 <pre>
 /opt/librenms/validate.php
 </pre>
-7. this breaks the logo and sets it back to stepcg log<br>
+8. this breaks the logo and sets it back to stepcg log<br>
 Copy the customer logo to file below and it will display their logo
 /opt/www/images/logo.png
