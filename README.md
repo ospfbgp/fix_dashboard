@@ -40,7 +40,7 @@ setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstra
 service apache2 restart
 </pre>
 4. edit file /opt/librenms/config.php and remove $config['base_url']
-5. edit file and comment out APP_URL= /opt/librenms/.env 
+5. edit file /opt/librenms/.env and comment out APP_URL= 
 6. update dashboard
 <pre>
 /opt/librenms/daily.sh
