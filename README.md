@@ -31,5 +31,5 @@ chmod 770 /opt/librenms
 setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 </pre>
-# Check /opt/librenms/config.php and remove $config['base_url']
-# execure /opt/librenms/daily.php
+== Check /opt/librenms/config.php and remove $config['base_url'] ==
+== execute /opt/librenms/daily.sh ==
