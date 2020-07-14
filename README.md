@@ -1,4 +1,5 @@
 # move dashboard directory
+<pre>
 cd ~
 sudo bash
 rm -fr fix_dashboard/
@@ -29,3 +30,4 @@ chown -R librenms:librenms /opt/librenms
 chmod 770 /opt/librenms
 setfacl -d -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
 setfacl -R -m g::rwx /opt/librenms/rrd /opt/librenms/logs /opt/librenms/bootstrap/cache/ /opt/librenms/storage/
+</pre>
