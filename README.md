@@ -1,4 +1,4 @@
-# move dashboard directory
+# Make dashboard root directory
 <pre>
 cd ~
 sudo bash
