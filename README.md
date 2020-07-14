@@ -49,6 +49,6 @@ service apache2 restart
 <pre>
 /opt/librenms/validate.php
 </pre>
-8. this breaks the logo and sets it back to stepcg log<br>
+8. this breaks the logo and sets it back to stepcg logo<br>
 Copy the customer logo to file below and it will display their logo
 /opt/www/images/logo.png
