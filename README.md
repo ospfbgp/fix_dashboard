@@ -49,3 +49,5 @@ service apache2 restart
 <pre>
 /opt/librenms/validate.php
 </pre>
+7. this breaks the logo and sets it back to stepcg log
+/opt/www/images/logo.png
