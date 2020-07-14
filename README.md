@@ -47,5 +47,5 @@ service apache2 restart
 </pre>
 6. validate dashboard
 <pre>
-/opt/librenms/validate
+/opt/librenms/validate.php
 </pre>
