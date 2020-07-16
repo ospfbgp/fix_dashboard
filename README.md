@@ -23,7 +23,7 @@ chmod 644 /opt/www/images/*
 
 cp ~/fix_dashboard/index.html /opt/www/.
 chown stepcg:stepcg /opt/www/index.html
-chmod 644 /opt/www/images/index.html
+chmod 644 /opt/www/index.html
 
 cp ~/fix_dashboard/librenms /etc/cron.d/.
 chown root:root /etc/cron.d/librenms
